@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Share+Tech+Mono');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  font-family: 'Share Tech Mono', monospace;
+  /*font-family: 'Cutive Mono', monospace;*/
+}
+
+.container{
+  width: 96vw;
+  margin: 2vw 2vw;
+  background-color: grey;
+}
+
+.grid{
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.grid-item{
+  width: 30%;
+  height: 20vw;
+  background-color: blue;
+  float: left;
+  margin: 10px 0;
+}
+
+.grid-item:hover{
+  cursor: pointer;
+}
+
+.lines{
+  background-image: url("img/lines.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.lines3{
+  background-image: url("img/lines3.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.linefollow{
+  background-image: url("img/linefollow.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.randomballs{
+  background-image: url("img/randomballs.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.randomballs2{
+  background-image: url("img/randomballs2.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.randomballs3{
+  background-image: url("img/randomballs3.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.sound{
+  background-image: url("img/sound.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.particletest{
+  background-image: url("img/particletest.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.pixels2{
+  background-image: url("img/pixels2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.terrain{
+  background-image: url("img/terrain.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.project{
+  width: 90%;
+  padding: 5%;
+  background-color: #141414;
+  color: #fff;
+}
+
+.sketch{
+  margin: 0 auto;
+  display: block;
+  border: 1px dashed #fff;
+}
+
+.description{
+  width: 80%;
+  margin: 2em auto;
+}
